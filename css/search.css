@@ -1,0 +1,26 @@
+select, .search, .btn-search{
+    border: none;
+  outline: none;
+  background: none;
+}
+.btn-search{
+    display: flex;
+   align-items: flex-end;
+   margin: 5px;
+}
+
+select{
+    margin: 5px;
+    
+}
+
+
+
+.inner-form{
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}

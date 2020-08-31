@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/mobile_menu.css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Muli:300,400,600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>E-com</title>
 </head>
 
@@ -22,7 +25,7 @@
                 <div class="col-md-2">
                     <a href="#" class="logo">Phoenic nav</a>
                 </div>
-                <div class="col-md-4 d-sm-none d-md-block ">
+                <div class="col-md-5 d-sm-none d-md-block ">
                     <form>
                         <div class="inner-form">
                             <div class="input-select">
@@ -37,13 +40,13 @@
                                     <option>Accessories</option>
                                 </select>
                             </div>
-                            <input id="search" type="text" placeholder="Search over 10,000 products" />
-                            <button class="btn-search" type="button">
+                            <input class="search" type="text" placeholder="Search over 10,000 products" />
+                            <button class="btn-search" type="button"><i class="fas fa-search"></i>
                             </button>
                         </div>
                     </form>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <div class="navigation-icons">
                         <div class="dropdown">
                             <button class="dropbtn">Main
@@ -81,6 +84,15 @@
             </div>
         </div>
     </nav>
+    <div class="topnav" id="myTopnav">
+        <a href="#" class="active">Phoenic nav</a>
+        <a href="#">New</a>
+        <a href="#">Contact</a>
+        <a href="#">Search</a>
+        <a href="javascript:void(0);" class="icon_mobile" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     <div class="content-wrapper">
         <div class="container">
             <div class="row">
@@ -94,10 +106,10 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="content-icons">                      
-                            <a href="#" class="all">All</a>
-                            <a href="#" class="power">Power Tools</a>
-                            <a href="#" class="hand">Hand Tools</a>               
+                    <div class="content-icons">
+                        <a href="#" class="all">All</a>
+                        <a href="#" class="power">Power Tools</a>
+                        <a href="#" class="hand">Hand Tools</a>
                         <a href="#" class="plumbing">Plumbing</a>
                         <div class="left-right ">
                             <a href="#"><i class="fas fa-arrow-left"></i></a>
@@ -112,7 +124,7 @@
     <div class="section">
         <div class="container">
             <div class="row">
-                <div class="col-md-1 d-sm-none d-md-block"></div>
+                <div class="col-md-1 "></div>
                 <div class="col-md-2 ">
                     <div class="card">
                         <div class="card__image">
@@ -208,8 +220,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-1  d-sm-none d-md-block"></div>
-                <div class="col-md-1  d-sm-none d-md-block"></div>
+                <div class="col-md-1"></div>
+                <div class="col-md-1"></div>
                 <div class="col-md-2 col-sm-4">
                     <div class="card">
                         <div class="card__image">
@@ -229,7 +241,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-4">
+                <div class="col-md-2 ">
                     <div class="card">
                         <div class="card__image">
                             <img class="image" src="img/pic.png" alt="product">
@@ -248,7 +260,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-4">
+                <div class="col-md-2">
                     <div class="card">
                         <div class="card__image">
                             <img class="image" src="img/pic.png" alt="product">
@@ -267,7 +279,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-4">
+                <div class="col-md-2">
                     <div class="card">
                         <div class="card__image">
                             <img class="image" src="img/pic.png" alt="product">
@@ -286,7 +298,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 col-sm-4">
+                <div class="col-md-2">
                     <div class="card">
                         <div class="card__image">
                             <img class="image" src="img/pic.png" alt="product">
@@ -305,10 +317,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-1 d-sm-none"></div>
+                <div class="col-md-1"></div>
             </div>
         </div>
     </div>
+    <script src="index.js"></script>
 </body>
 
 </html>

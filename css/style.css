@@ -34,7 +34,7 @@
 }
 
 .card__title, .stars{
-    color: blue;
+    color: #007bff;
     margin-left: 5px;
 }
     
@@ -46,7 +46,7 @@
     text-align: center;
 }
 .content-logo{
-    color: rgb(88, 101, 158);
+    color: #007bff;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -104,7 +104,7 @@ a, a:hover{
     height: 10px;
     background-color: white;
     border-radius: 5px;
-    color: rgb(78, 93, 228);
+    color: #007bff;
     font-size: 10px;
     font-weight: 600;
     text-align: center;
@@ -120,7 +120,7 @@ a, a:hover{
     text-decoration: none;
     outline: none;
     border: none;
-    background-color:  rgb(78, 93, 228);
+    background-color:  #2a628f;
     color: white;
 }
 
@@ -132,14 +132,14 @@ a, a:hover{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #2a628f;
     min-width: 110px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   .dropdown-content a {
     float: none;
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -149,5 +149,5 @@ a, a:hover{
     display: block;
   }  
   .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #214d70;
   }

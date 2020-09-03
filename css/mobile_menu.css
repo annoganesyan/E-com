@@ -51,11 +51,26 @@
   }
 
 
-  @media (max-width: 630px) {
+  @media (max-width: 770px) {
     .nav-wrapper {display:none;}
+    
   }
 
   
-  @media (min-width: 630px) {
+  @media (min-width: 770px) {
     .topnav {display:none;}
+  
   }
+
+  @media(max-width:1000px){
+    .inner-form{display: none;}
+    .logo{font-size: 15px;
+    }
+    .dropdown{
+      display: none;
+    }
+    .content-icons{display: none;}
+  }
+
+
+ 

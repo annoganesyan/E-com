@@ -64,41 +64,14 @@
     font-weight: bold;
 }
 
-.image{
-    width: 150px;
-    height: 150px;
-    margin-top: 10px;
-}
 
-.card{
-    border: solid 2px rgb(238, 230, 230);
-    width: 170px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
-    border-radius: 3px;
-}
-
-.card:hover{
-    border: solid 2px rgb(114, 109, 109);
-}
 
 .inner-form{
     display: flex;
     
 }
 
-.grey-star, .grey-rev, .card__price{
-    color: gray;
-}
 
-.card__title, .stars{
-    color: #007bff;
-    margin-left: 8px;
-    margin-right: 5px;
-}
-    
 
 .all{
     border: solid 1px;
@@ -160,18 +133,7 @@ a, a:hover{
     color: white;
 }
 
-.cart__number{
-    width: 10px;
-    height: 10px;
-    background-color: white;
-    border-radius: 5px;
-    color: #007bff;
-    font-size: 10px;
-    font-weight: 600;
-    text-align: center;
-    position: absolute;
-  
-}
+
 
 .nav-wrapper{
     background-color: #2a628f;

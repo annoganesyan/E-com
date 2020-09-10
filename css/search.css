@@ -13,7 +13,9 @@ select{
     margin: 5px;
     
 }
-
+.search{
+    margin-right: 140px;
+}
 
 
 .inner-form{

@@ -16,16 +16,21 @@ box-sizing: border-box;
 position: relative;
 min-height: 1px;
 float: left;
+
+
 flex-shrink: 0;
-display: flex;
+
+
 touch-action: pan-y;
 user-select: none;
-width: 224.5px;
-margin-right: 30px;}
+width: 270px;
+margin: 20px;
 
-.cards__content{
-    
+
+
+
 }
+
 
 .products-slider-col {
     display: -webkit-box;
@@ -320,6 +325,7 @@ img {
 
 [dir=ltr] .product-card-rating-stars {
     margin-right: 8px;
+    color: #2a628f;
 }
 
 .product-card-rating-stars, .product-card-rating-legend {

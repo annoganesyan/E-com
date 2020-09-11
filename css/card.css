@@ -13,6 +13,7 @@ direction: ltr;
 pointer-events: auto;
 box-sizing: border-box;
 -webkit-tap-highlight-color: transparent;
+
 position: relative;
 min-height: 1px;
 float: left;
@@ -30,6 +31,7 @@ margin: 20px;
 
 
 }
+
 
 
 .products-slider-col {
